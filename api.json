@@ -1,10 +1,8 @@
 {
-  "category": "UNDEAD_GHOST",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/pontianak",
     "maintainers": [
       {
@@ -18,364 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "pontianak",
     "name": "Pontianak",
-    "aliases": [
-      {
-        "name": "Kuntilanak",
-        "language": "Indonesian",
-        "region": "Indonesia",
-        "meaning": "Alternative Indonesian name"
-      },
-      {
-        "name": "Langsuir",
-        "language": "Malay",
-        "region": "Malaysia",
-        "meaning": "Related vampire ghost, woman who died in childbirth"
-      },
-      {
-        "name": "Sundel Bolong",
-        "language": "Indonesian",
-        "meaning": "Beautiful woman with hole in back"
-      }
-    ],
+    "aliases": [],
     "category": "UNDEAD_GHOST",
-    "subcategory": "Malaysian/Indonesian Vampire Ghost",
+    "subcategory": "Childbirth Spirit",
     "tags": [
-      "vampire",
-      "ghost",
-      "undead",
-      "malay-folklore",
-      "childbirth-death",
-      "nocturnal",
-      "shapeshifter"
+      "folklore",
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "Malaysian and Indonesian vampire ghost of a woman who died during childbirth or pregnancy. Appears as a beautiful woman to lure victims, then transforms into hideous form to attack with long fingernails, ripping out organs and drinking blood.",
-      "full": "The pontianak (known as kuntilanak in Indonesia) is one of the most feared supernatural beings in Malay and Indonesian folklore. This vampire ghost originates from women who died during pregnancy, childbirth, or from stillbirth. The pontianak appears as a beautiful woman in white with long black hair to lure victims, particularly men. Once close, she reveals her true hideous form and attacks with sharp, long fingernails, ripping out internal organs with her claws and drinking blood. Pontianak particularly target pregnant women and can be detected by the scent of frangipani flowers (scent strong when far, faint when near) or the sound of a baby crying. Prevention methods include driving a nail into the hollow at the nape of her neck or placing glass beads in a corpse's mouth to prevent transformation. The pontianak has become a staple of Southeast Asian horror cinema and urban legends, and a city in Indonesia bears her name."
+      "summary": "The pontianak (known as **kuntilanak** in Indonesia) is one of the most feared supernatural beings in Malay and Indonesian folklore.",
+      "full": "The pontianak (known as **kuntilanak** in Indonesia) is one of the most feared supernatural beings in Malay and Indonesian folklore. This vampire ghost originates from women who died during pregnancy, childbirth, or from stillbirth. The pontianak appears as a **beautiful woman in white** with long black hair to lure victims, particularly men. Once close, she reveals her true **hideous form** and attacks with sharp, long fingernails, **ripping out internal organs** with her claws and drinking blood. Pontianak particularly target pregnant women and newborns. She can be detected by the **scent of frangipani flowers** (strong when far away, faint when nearby—the reverse of normal) or the sound of a **baby crying**. > ⚠️ **CULTURAL SENSITIVITY**: Pontianak beliefs are part of active Southeast Asian folk tradition and reflect cultural attitudes toward childbirth, death, and women's roles."
     },
     "etymology": {
-      "origin": "Derived from Malay, possibly from 'perempuan mati beranak' (woman who died in childbirth)",
-      "meaning": "Vampire ghost of childbirth death",
-      "first_use": "Traditional Malay folklore, pre-colonial"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "UNDEAD_GHOST",
-      "type": "Vampire Ghost",
-      "subtype": "Childbirth Spirit",
-      "variant": "Malaysian/Indonesian"
+      "type": "Childbirth Spirit",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "vampires",
-        "name": "Vampires",
-        "relationship": "similar",
-        "description": "Blood-drinking undead"
-      },
-      {
-        "id": "aswang",
-        "name": "Aswang",
-        "relationship": "regional_variant",
-        "description": "Filipino shapeshifting vampire"
-      },
-      {
-        "id": "la-llorona",
-        "name": "La Llorona",
-        "relationship": "similar",
-        "description": "Weeping woman ghost associated with children"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "forms": [
-        {
-          "type": "Beautiful woman",
-          "description": "Attractive woman in white dress with long black hair, used to lure victims",
-          "frequency": "always"
-        },
-        {
-          "type": "Hideous form",
-          "description": "True form revealed when attacking, grotesque features",
-          "frequency": "common"
-        },
-        {
-          "type": "Hole in back",
-          "description": "Some variants (Sundel Bolong) have hollow back visible from behind",
-          "frequency": "variant"
-        }
-      ],
-      "features": [
-        {
-          "feature": "Long black hair",
-          "description": "Flowing black hair often covering face",
-          "frequency": "always"
-        },
-        {
-          "feature": "White dress",
-          "description": "Traditional white funeral or nightgown",
-          "frequency": "always"
-        },
-        {
-          "feature": "Long fingernails",
-          "description": "Sharp, claw-like nails for ripping flesh",
-          "frequency": "always"
-        },
-        {
-          "feature": "Pale skin",
-          "description": "Ghostly pale or corpse-like skin",
-          "frequency": "always"
-        },
-        {
-          "feature": "Neck hollow",
-          "description": "Hollow at the nape of neck, vulnerability point",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Appears as beautiful woman from front, may have hollow back. Transforms to reveal hideous, corpse-like features when attacking."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Shapeshifting",
-        "description": "Alternates between beautiful and hideous forms",
-        "frequency": "always",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Flight",
-        "description": "Can fly or levitate through the air",
-        "frequency": "common",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Organ extraction",
-        "description": "Rips out internal organs with clawed hands",
-        "frequency": "always",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Blood drinking",
-        "description": "Feeds on victims' blood",
-        "frequency": "always",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Scent manipulation",
-        "description": "Frangipani scent reversal (strong when far, faint when near)",
-        "frequency": "always",
-        "evidence_level": "documented"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "hostile",
-      "social_structure": "solitary",
-      "habitat_preference": [
-        "banana trees",
-        "graveyards",
-        "forests",
-        "abandoned places"
-      ],
-      "targets": "Men (primary), pregnant women, newborns",
-      "patterns": [
-        "Appears as beautiful woman to lure victims",
-        "Attacks men who approach",
-        "Targets pregnant women and babies",
-        "Associated with childbirth locations",
-        "Resides in banana trees during day"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Malaysia and Indonesia, with cultural variations across regions",
-      "continents": ["Asia"],
-      "countries": ["Malaysia", "Indonesia", "Brunei", "Singapore"],
-      "regions": [
-        "Throughout Malaysia",
-        "Throughout Indonesia",
-        "Urban and rural areas",
-        "Pontianak City (named after the ghost)"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "Pontianak City",
-        "location": {
-          "description": "Capital of West Kalimantan, Indonesia",
-          "country": "Indonesia",
-          "region": "West Kalimantan",
-          "coordinates": {
-            "latitude": -0.0263,
-            "longitude": 109.3425
-          }
-        },
-        "significance": "City named after the pontianak ghost",
-        "notes": "Legend says city founded where pontianak was defeated"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Pre-colonial",
+        "date": "Unknown",
         "circa": true,
-        "source": "Malay oral traditions"
-      },
-      "modern_presence": "Active in urban legends, horror films, cultural beliefs across Malaysia and Indonesia"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Ancient Malay folklore explaining deaths in childbirth and infant mortality. Reflects cultural anxieties around pregnancy and birth.",
-      "earliest_accounts": "Pre-Islamic Malay animistic beliefs, continued through Islamic period",
-      "folklore_connections": "Part of broader Southeast Asian vampire mythology"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Pre-15th century",
-        "event": "Pre-Islamic Malay folklore",
-        "significance": "Origins in animistic beliefs",
-        "source": "Oral tradition"
-      },
-      {
-        "date": "1771",
-        "event": "Founding of Pontianak City",
-        "significance": "City named after legend of defeating pontianak",
-        "source": "Historical records"
-      },
-      {
-        "date": "20th century",
-        "event": "Horror film popularity",
-        "significance": "Pontianak becomes staple of Southeast Asian horror cinema",
-        "source": "Film industry"
-      },
-      {
-        "date": "Present",
-        "event": "Urban legend persistence",
-        "significance": "Continues in modern urban legends and media",
-        "source": "Contemporary culture"
-      }
-    ],
-    "modern_era": "Pontianak remains prominent in Malaysian and Indonesian popular culture through horror films, TV series, urban legends, and folklore. Belief persists in some communities."
+    "timeline": []
   },
-
-  "detection": {
-    "methods": [
-      {
-        "method": "Frangipani scent",
-        "description": "Sweet flower scent is strong when pontianak is far away, faint when nearby",
-        "reliability": "high"
-      },
-      {
-        "method": "Baby crying sound",
-        "description": "Sound of infant crying with no visible source",
-        "reliability": "high"
-      },
-      {
-        "method": "Dog howling",
-        "description": "Dogs sense and react to pontianak presence",
-        "reliability": "medium"
-      },
-      {
-        "method": "Beautiful woman at night",
-        "description": "Solitary beautiful woman in white near graveyards or banana trees",
-        "reliability": "medium"
-      }
-    ],
-    "prevention": [
-      "Drive nail into hollow at nape of neck (immobilizes)",
-      "Place glass beads in corpse's mouth (prevents transformation)",
-      "Iron nails or scissors under pillow",
-      "Religious verses and prayers",
-      "Avoid banana trees at night",
-      "Don't respond to crying baby sounds at night"
-    ]
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Protection rituals for pregnant women",
-        "Prevention of transformation (glass beads)",
-        "Banana tree associations",
-        "Childbirth precautions"
-      ],
-      "stories": [
-        "Founding of Pontianak City",
-        "Encounters on lonely roads",
-        "Protection through nail in neck",
-        "Revenge against men"
-      ],
-      "beliefs": "Genuine fear in many communities. Protective measures taken around pregnancy and childbirth."
-    },
-    "cultural_sensitivity": {
-      "note": "⚠️ CULTURAL SENSITIVITY: Pontianak beliefs are part of active Southeast Asian folk tradition and reflect cultural attitudes toward childbirth, death, and women's roles.",
-      "respect_guidelines": "Approach with cultural sensitivity. Recognize the connection to maternal mortality anxieties. Avoid trivializing beliefs held by communities."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Malay folklore collections",
-        "Modern horror novels",
-        "Folk tales and legends"
-      ],
-      "film_tv": [
-        "Pontianak (1957, first Malay horror film)",
-        "Kuntilanak film series (Indonesia)",
-        "Numerous Malaysian and Indonesian horror films",
-        "TV series episodes"
-      ],
-      "other": [
-        "Pontianak City tourism",
-        "Horror attractions",
-        "Cultural festivals"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "theories": {
-    "folkloric": [
-      {
-        "name": "Vengeful spirit",
-        "description": "Ghost seeking revenge for death in childbirth",
-        "evidence_cited": ["Childbirth origin", "Targeting of men and pregnant women"]
-      }
-    ],
-    "skeptical": [
-      {
-        "name": "Maternal mortality explanation",
-        "description": "Cultural explanation for high maternal and infant death rates in pre-modern times",
-        "evidence_cited": ["Childbirth association", "Historical mortality rates"]
-      },
-      {
-        "name": "Social control",
-        "description": "Folklore reinforcing protective behaviors around pregnancy",
-        "evidence_cited": ["Prevention rituals", "Cultural practices"]
-      }
-    ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "malay-folklore",
-      "type": "oral tradition",
-      "title": "Traditional Malay Folklore",
-      "date": "Pre-colonial to present",
-      "description": "Oral traditions of pontianak across Malaysia and Indonesia"
-    },
-    {
-      "id": "pontianak-1957",
-      "type": "film",
-      "title": "Pontianak (1957)",
-      "date": "1957",
-      "description": "First Malay horror film, established cinematic portrayal"
-    }
-  ]
+  "sources": []
 }
